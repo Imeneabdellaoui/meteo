@@ -1,0 +1,14 @@
+"https://api.openweathermap.org/data/2.5/weather?q=" + 
+     city 
+     + "&appid=" +
+     this.apiKey
+
+
+      apiKey: "99b6d5c129d75774bf653b46525f6895",
+
+
+name
+temperature
+descriptio,
+humidity
+wind speed
