@@ -19,7 +19,7 @@
     background: #000000d0;
     align-items: center;
     color: white;
-    padding: 2em;
+    padding: 2.5em;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
@@ -33,18 +33,19 @@
     flex-direction: column;
 }
 .search{
+    display: flex;
     align-items: center;
     justify-content: center;
 
 }
 .search-bar{
+    width: 250px;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
-    margin-bottom: 500px;
+    border-radius: 5px;
+    margin-right: 15px;
 }
 button{
-    margin: 0.5em;
     border-radius: 50%;
     border: none;
     height: 44px;
@@ -59,7 +60,6 @@ button{
     border-radius: 50%;
 }
 .content{
-    background-image: url(https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)  ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
